@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Use the reduce() function to sum inventory"
-categories: mics
+categories: javascript
 ---
 
 I highly recommend taking a course call <a href="https://javascript30.com/">javascript30</a>, by Wes Bos. It is a free class and you will learn a lot of really good javascript stuff in bit size amounts. Below is a code snippet from that class, but modified to show how it can be used to quickly count inventory stored in an array. 

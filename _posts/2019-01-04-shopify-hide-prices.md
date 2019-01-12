@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Show Product Price on Shopify IF Customer AND Wholesale"
-categories: mics
+categories: shopify
 ---
-
+{{ category_name }}
 A common request from people who have a B2B or Wholesale site is “Can we hide our prices until someone has created an account and we have verified them?”  You can do this in shopify with an App, OR you can wrap all prices in the following IF statement. 
 
 {% highlight liquid %}

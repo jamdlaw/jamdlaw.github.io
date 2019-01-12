@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Apply function in Javascript to extend arrays"
-categories: mics
+categories: javascript
 ---
 
 The apply function is Javascript does basically the same thing as the call function. BUT it has one distinct advantage to us as everyday programmers. Unlike the <i> call </i> function which takes in a variable(s) as the parameter(s) to execute a function against. The <i>apply</i> function takes an array. 
