@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Useful Bash Commands"
-categories: shopify
+categories: bash
 ---
 
 # Simple list of bash commnads with short explanation
