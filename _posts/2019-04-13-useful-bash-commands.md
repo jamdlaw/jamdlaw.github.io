@@ -45,6 +45,7 @@ __Goal__: see a complete list of all the commands that have been run
 ```
 history
 ```  
+------
 <br><br>
 __Goal__: find a file _by name_ somewhere and display it's contents 
 
