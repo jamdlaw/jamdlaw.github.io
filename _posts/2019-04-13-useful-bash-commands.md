@@ -60,7 +60,6 @@ find --name example.html -exec cat {} \;
 ```
 ------
 <br><br>
-<br><br>
 __Goal__: get the last entires in a log file AND automatically refresh the terminal 
 when new log entries appear
 
@@ -70,3 +69,9 @@ tail -f /var/log/nginx/error_log
 ------
 <br><br>
 
+__Goal__: find a string in a file and then show 10 line before and 20 lines after
+```
+cat someFile.txt | grep -B10 -A20 some_string_to_find
+```
+<br><br>
+------
