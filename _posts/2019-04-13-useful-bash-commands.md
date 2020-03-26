@@ -45,6 +45,12 @@ __Goal__: see a complete list of all the commands that have been run
 ```
 history
 ```  
+
+this one I like to use with connections to servers that I might have accessed in the past, but do not remember the ssh connection 
+string, and did not create a server alias. so say the IP addres is 10.5.5.53 I could looks through my history to find the ssh connection like this 
+```
+history | grep  10.5.5.53
+```
 ------
 <br><br>
 __Goal__: find a file _by name_ somewhere and display it's contents 
@@ -54,3 +60,13 @@ find --name example.html -exec cat {} \;
 ```
 ------
 <br><br>
+<br><br>
+__Goal__: get the last entires in a log file AND automatically refresh the terminal 
+when new log entries appear
+
+```
+tail -f /var/log/nginx/error_log
+```
+------
+<br><br>
+
