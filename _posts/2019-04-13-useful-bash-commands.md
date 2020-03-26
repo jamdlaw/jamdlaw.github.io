@@ -73,5 +73,6 @@ __Goal__: find a string in a file and then show 10 line before and 20 lines afte
 ```
 cat someFile.txt | grep -B10 -A20 some_string_to_find
 ```
-<br><br>
 ------
+<br><br>
+
